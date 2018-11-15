@@ -1,0 +1,16 @@
+{
+    "name": "TouhouSDK.EditModeTest",
+    "references": [
+        "Touhou.IO",
+        "Touhou.Core",
+        "Touhou.PlayerScore"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

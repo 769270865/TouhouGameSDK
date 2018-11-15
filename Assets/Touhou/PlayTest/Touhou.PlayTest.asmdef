@@ -1,0 +1,14 @@
+{
+    "name": "Touhou.PlayTest",
+    "references": [
+        "Touhou.Core",
+        "Touhou.PlayerScore",
+        "Touhou.Replay"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

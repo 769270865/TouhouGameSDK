@@ -1,0 +1,12 @@
+{
+    "name": "Touhou.IO",
+    "references": [
+        "Touhou.PlayerScore",
+        "Touhou.Core",
+        "Touhou.Replay"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

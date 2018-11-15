@@ -1,0 +1,10 @@
+{
+    "name": "Touhou.Replay",
+    "references": [
+        "Touhou.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

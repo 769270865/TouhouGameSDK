@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1099193211032754}
+  m_IsPrefabAsset: 1
+--- !u!1 &1099193211032754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4930459426448076}
+  - component: {fileID: 114948054339131636}
+  m_Layer: 0
+  m_Name: TestBoss1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4930459426448076
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099193211032754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 209.6, y: 480, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114948054339131636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1099193211032754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b5a020ba59da14d9d6d899c90d2921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 114523843583705810, guid: 6847b088cb02ac146808453b17be1672, type: 2}
+    - {fileID: 114618149202046614, guid: 49cd7d8df3f448b4995c10dfb32a75c9, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: componentID
+      Entry: 7
+      Data: Touhou.Core.Enemy.EnemyComponentID, Touhou.Core
+    - Name: StageDiffculity
+      Entry: 3
+      Data: 1
+    - Name: ComponentType
+      Entry: 3
+      Data: 2
+    - Name: ComponentID
+      Entry: 3
+      Data: -7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BossData
+      Entry: 7
+      Data: 0|Touhou.Core.Enemy.BossCatainer, Touhou.Core
+    - Name: BossName
+      Entry: 1
+      Data: BossFoo
+    - Name: SpellCount
+      Entry: 3
+      Data: 1
+    - Name: BossSprite
+      Entry: 6
+      Data: 
+    - Name: bossComponents
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Touhou.Core.Enemy.IEnemyComponent,
+        Touhou.Core]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
