@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4555767492818898}
   - component: {fileID: 114835576728079498}
   m_Layer: 0
-  m_Name: TestEnemyTimer
+  m_Name: EnemyCountDownTimer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

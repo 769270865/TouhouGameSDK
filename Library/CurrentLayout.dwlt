@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 682
-    y: 766
+    x: 459
+    y: 869
     width: 782
     height: 661
   m_ShowMode: 0
@@ -36,9 +36,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 11
-    y: 107
+    y: 1
     width: 507
-    height: 1026
+    height: 1032
   m_ShowMode: 0
   m_Title: 
   m_RootView: {fileID: 7}
@@ -84,8 +84,8 @@ MonoBehaviour:
     y: 0
     width: 782
     height: 661
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   vertical: 0
-  controlID: 65
+  controlID: 202
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,9 +131,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 507
-    height: 1026
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
+    height: 1032
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -157,11 +157,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 507
-    height: 1026
+    height: 1032
   m_MinSize: {x: 100, y: 122}
   m_MaxSize: {x: 4000, y: 4022}
   vertical: 0
-  controlID: 114
+  controlID: 137
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 915, y: 442}
-  m_MaxSize: {x: 22010, y: 10021}
+  m_MinSize: {x: 917, y: 442}
+  m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
   controlID: 9
 --- !u!114 &11
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 180
+  controlID: 23
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,7 +317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 952
     y: 0
-    width: 559
+    width: 530
     height: 947
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
@@ -340,12 +340,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1511
+    x: 1482
     y: 0
-    width: 409
+    width: 438
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -369,8 +369,8 @@ MonoBehaviour:
     y: 0
     width: 651
     height: 485
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
@@ -421,11 +421,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 11
-    y: 129
+    y: 23
     width: 507
-    height: 1004
+    height: 1010
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
     m_Window: {fileID: 18}
     newResultList:
@@ -433,7 +433,7 @@ MonoBehaviour:
       name: TouhouGameSDK
       fullName: TouhouGameSDK
       resultStatus: 1
-      duration: 3.2057672
+      duration: 3.2285116
       messages: 
       output: 
       stacktrace: 
@@ -447,7 +447,7 @@ MonoBehaviour:
       name: Touhou.PlayTest.dll
       fullName: E:/U3D project/TouhouGameSDK/Library/ScriptAssemblies/Touhou.PlayTest.dll
       resultStatus: 1
-      duration: 3.1757622
+      duration: 3.2006001
       messages: 
       output: 
       stacktrace: 
@@ -461,7 +461,7 @@ MonoBehaviour:
       name: Touhou
       fullName: Touhou
       resultStatus: 1
-      duration: 3.1642725
+      duration: 3.187641
       messages: 
       output: 
       stacktrace: 
@@ -475,7 +475,7 @@ MonoBehaviour:
       name: PlayTest
       fullName: Touhou.PlayTest
       resultStatus: 1
-      duration: 3.1472461
+      duration: 3.1707344
       messages: 
       output: 
       stacktrace: 
@@ -485,6 +485,132 @@ MonoBehaviour:
       isSuite: 1
       categories: []
       parentID: '[Touhou][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+      name: EnemyComponentTest
+      fullName: Touhou.PlayTest.EnemyComponentTest
+      resultStatus: 1
+      duration: 3.1516154
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentID: '[Touhou.PlayTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.Boss_Defeated_TimeOut_Defeated_Test]'
+      name: Boss_Defeated_TimeOut_Defeated_Test
+      fullName: Touhou.PlayTest.EnemyComponentTest.Boss_Defeated_TimeOut_Defeated_Test
+      resultStatus: 2
+      duration: 0.068364
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Touhou.PlayTest.EnemyComponentTest+<Boss_Defeated_TimeOut_Defeated_Test>c__Iterator4.MoveNext
+        () [0x000ae] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\EnemyComponentTest.cs:116
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x00031] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:29 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.Boss_TimeOut_Defeated_TimeOut_Test]'
+      name: Boss_TimeOut_Defeated_TimeOut_Test
+      fullName: Touhou.PlayTest.EnemyComponentTest.Boss_TimeOut_Defeated_TimeOut_Test
+      resultStatus: 2
+      duration: 0.0638999
+      messages: 'System.ArgumentException : The Object you want to instantiate is
+        null.'
+      output: 
+      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String
+        message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:381
+        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+        \r\n  at Touhou.PlayTest.DataInjectorTestHelerMethod.GetTestMockBoss (System.Int32
+        TestMockBossNumber) [0x00025] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\DataInjectorTestHelerMethod.cs:75
+        \r\n  at Touhou.PlayTest.EnemyComponentTest+<Boss_TimeOut_Defeated_TimeOut_Test>c__Iterator5.MoveNext
+        () [0x00098] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\EnemyComponentTest.cs:143
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x00031] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:29 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.BulletPatternDefeatedTest]'
+      name: BulletPatternDefeatedTest
+      fullName: Touhou.PlayTest.EnemyComponentTest.BulletPatternDefeatedTest
+      resultStatus: 2
+      duration: 0.0676604
+      messages: 'System.ArgumentException : The Object you want to instantiate is
+        null.'
+      output: 
+      stacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String
+        message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:381
+        \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+        \r\n  at Touhou.PlayTest.DataInjectorTestHelerMethod.GetTestBulletPattern
+        (System.Int32 TestBulletPatternNumber) [0x00025] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\DataInjectorTestHelerMethod.cs:14
+        \r\n  at Touhou.PlayTest.EnemyComponentTest+<BulletPatternDefeatedTest>c__Iterator1.MoveNext
+        () [0x00052] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\EnemyComponentTest.cs:53
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+        () [0x00031] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:29 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.BullletPatternTimeOutTest]'
+      name: BullletPatternTimeOutTest
+      fullName: Touhou.PlayTest.EnemyComponentTest.BullletPatternTimeOutTest
+      resultStatus: 1
+      duration: 3.1310005
+      messages: 
+      output: "True True\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.SpellCardDefeatedTest]'
+      name: SpellCardDefeatedTest
+      fullName: Touhou.PlayTest.EnemyComponentTest.SpellCardDefeatedTest
+      resultStatus: 1
+      duration: 1.5888911
+      messages: 
+      output: "True True\r\n"
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
+    - id: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest.SpellCardTimeOutTest]'
+      name: SpellCardTimeOutTest
+      fullName: Touhou.PlayTest.EnemyComponentTest.SpellCardTimeOutTest
+      resultStatus: 1
+      duration: 3.147976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyComponentTest][suite]'
     - id: '[Touhou.PlayTest.EnemyUtlities][suite]'
       name: EnemyUtlities
       fullName: Touhou.PlayTest.EnemyUtlities
@@ -528,13 +654,30 @@ MonoBehaviour:
       categories:
       - Uncategorized
       parentID: '[Touhou.PlayTest][Touhou.PlayTest.EnemyUtlities.EnemyStageTimerTest][suite]'
-    m_ResultText: EnemyStageTimerTest (3.113s)
-    m_ResultStacktrace: 
+    m_ResultText: "BulletPatternDefeatedTest (0.068s)\n---\nSystem.ArgumentException
+      : The Object you want to instantiate is null.\n---\nat UnityEngine.Object.CheckNullArgument
+      (System.Object arg, System.String message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:381
+      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+      \r\n  at Touhou.PlayTest.DataInjectorTestHelerMethod.GetTestBulletPattern (System.Int32
+      TestBulletPatternNumber) [0x00025] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\DataInjectorTestHelerMethod.cs:14
+      \r\n  at Touhou.PlayTest.EnemyComponentTest+<BulletPatternDefeatedTest>c__Iterator1.MoveNext
+      () [0x00052] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\EnemyComponentTest.cs:53
+      \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+      () [0x00031] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:29"
+    m_ResultStacktrace: "  at UnityEngine.Object.CheckNullArgument (System.Object
+      arg, System.String message) [0x00008] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:381
+      \r\n  at UnityEngine.Object.Instantiate[T] (T original) [0x0000c] in C:\\buildslave\\unity\\build\\Runtime\\Export\\UnityEngineObject.bindings.cs:274
+      \r\n  at Touhou.PlayTest.DataInjectorTestHelerMethod.GetTestBulletPattern (System.Int32
+      TestBulletPatternNumber) [0x00025] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\DataInjectorTestHelerMethod.cs:14
+      \r\n  at Touhou.PlayTest.EnemyComponentTest+<BulletPatternDefeatedTest>c__Iterator1.MoveNext
+      () [0x00052] in E:\\U3D project\\TouhouGameSDK\\Assets\\Touhou\\PlayTest\\EnemyComponentTest.cs:53
+      \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>c__Iterator0.MoveNext
+      () [0x00031] in C:\\buildslave\\unity\\build\\Extensions\\TestRunner\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:29 "
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b2cb0fbf
-      m_LastClickedID: -1089483854
-      m_ExpandedIDs: ea4ae489d3fb0ea40a591cce1200f8e2e9b764e5546218ecb30a75009b854f048567b44211051149d33b9b59567b905c58a2526ab5ec586be746ea776432d779ffffff7f
+      m_SelectedIDs: 4d4bca6f
+      m_LastClickedID: 1875528525
+      m_ExpandedIDs: ea4ae489d3fb0ea40a591cce1200f8e2e9b764e5546218ec6933c5fcb30a75009b854f048567b44211051149d33b9b59567b905c58a2526ae746ea776432d779ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -906,8 +1049,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 682
-    y: 788
+    x: 459
+    y: 891
     width: 782
     height: 639
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -938,23 +1081,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: a0edfeff
     m_LastClickedID: 0
-    m_ExpandedIDs: 3ea5ffff5af9ffff00000000
+    m_ExpandedIDs: 3695fcff4e95fcff1c9afcffa0eafcffb8eafcff2cf1fcff4028fdff5828fdff0c2dfdff4c32fdff6432fdff4637fdff8255fdff9a55fdff3e5afdff2e7cfdff467cfdff5c81fdffca94fdffe294fdffda99fdffe0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: TestBulltPattern1
+      m_OriginalName: TestBulltPattern1
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -83144
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 4
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -984,9 +1127,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1513
+    x: 1484
     y: 92
-    width: 407
+    width: 436
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -1020,7 +1163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 954
     y: 92
-    width: 555
+    width: 526
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -1035,20 +1178,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Touhou/PlayTest
+    - Assets/Resources/TestResources/EnemyComponentMocksPrefab
   m_ViewMode: 1
   m_StartGridSize: 47
   m_LastFolders:
-  - Assets/Touhou/PlayTest
+  - Assets/Resources/TestResources/EnemyComponentMocksPrefab
   m_LastFoldersGridSize: 47
   m_LastProjectPath: E:\U3D project\TouhouGameSDK
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa2f0000
-    m_LastClickedID: 12282
-    m_ExpandedIDs: 00000000702e0000e02e0000162f00002e2f0000f62f000006300000003100003a31000000ca9a3b
+    m_SelectedIDs: 28300000
+    m_LastClickedID: 12328
+    m_ExpandedIDs: 00000000f62d0000662e00009c2e0000b42e00007c2f00008c2f0000c230000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1076,7 +1219,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000702e0000e02e0000162f00002e2f0000f62f000006300000003100003a310000
+    m_ExpandedIDs: 00000000f62d0000662e00009c2e0000b42e00007c2f00008c2f000088300000c2300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1104,7 +1247,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 00000000
+    m_ExpandedInstanceIDs: 00000000d8e5ffff1c58feff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1130,7 +1273,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 47
-  m_DirectoriesAreaWidth: 274
+  m_DirectoriesAreaWidth: 175
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52

@@ -15,12 +15,15 @@ namespace Touhou.PlayTest.EnemyUtlities
         [OdinSerialize]
         public ISpellCard TestSpellCard;
         public float TestEnemyComponentLifeTime;
-        public bool isDefeatedMock;
 
+        public bool isDefeatedMock;
+        public int EnemyComponentHealthLevel;
+   
 
         // Use this for initialization
         void Start()
         {
+           
             StartCoroutine("TestingProcess");
         }
 
@@ -31,11 +34,11 @@ namespace Touhou.PlayTest.EnemyUtlities
                 yield return new WaitForSecondsRealtime(TestEnemyComponentLifeTime / 2 + Random.Range(+0.5f, -0.5f));
                 if (TestBulletPattern != null)
                 {
-                    TestBulletPattern.Health.DecreseHealth(100);
+                    TestBulletPattern.Health.DecreseHealth(EnemyComponentHealthLevel);
                 }
                 else if (TestSpellCard != null)
                 {
-                    TestSpellCard.Health.DecreseHealth(100);
+                    TestSpellCard.Health.DecreseHealth(EnemyComponentHealthLevel);
                 }
 
             }
@@ -44,11 +47,11 @@ namespace Touhou.PlayTest.EnemyUtlities
                 yield return new WaitForSecondsRealtime(TestEnemyComponentLifeTime / 2 + Random.Range(+0.5f, -0.5f));
                 if (TestBulletPattern != null)
                 {
-                    TestBulletPattern.Health.DecreseHealth(50);
+                    TestBulletPattern.Health.DecreseHealth(EnemyComponentHealthLevel / 2);
                 }
                 else if (TestSpellCard != null)
                 {
-                    TestSpellCard.Health.DecreseHealth(50);
+                    TestSpellCard.Health.DecreseHealth(EnemyComponentHealthLevel / 2);
                 }
             }
         }

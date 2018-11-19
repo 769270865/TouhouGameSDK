@@ -5,19 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Touhou.Core.Enemy
+namespace Touhou.Core.Enemy.Controller
 {
     public class SpellCard :EnemyComponentBase, ISpellCard,IEnemyComponentTimerHealth
     {
         [SerializeField]
         public SpellCardCatainer SpellCardData;
 
+        
         public IEnemyHealth Health { get; set; }
         public IEnemyCountDownTimer Timer { get; set; }
         public string SpellCardName { get; set; }
 
-
-
+    
         public override event EventHandler<EventArgs> OnEnemyConditionChange;
         public override event EventHandler<EventArgs> OnEnemyFinished;
         public override event EventHandler<EventArgs> OnEnemyEnd;

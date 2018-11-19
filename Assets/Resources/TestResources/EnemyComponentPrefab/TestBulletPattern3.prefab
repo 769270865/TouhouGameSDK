@@ -9,30 +9,30 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1874045087512446}
+  m_RootGameObject: {fileID: 1074094715472874}
   m_IsPrefabAsset: 1
---- !u!1 &1874045087512446
+--- !u!1 &1074094715472874
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4564701436835650}
-  - component: {fileID: 114523843583705810}
+  - component: {fileID: 4472107223820134}
+  - component: {fileID: 114644990291643622}
   m_Layer: 0
-  m_Name: TestBulltPattern1
+  m_Name: TestBulletPattern3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4564701436835650
+--- !u!4 &4472107223820134
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1874045087512446}
+  m_GameObject: {fileID: 1074094715472874}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 209.6, y: 480, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40,12 +40,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114523843583705810
+--- !u!114 &114644990291643622
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1874045087512446}
+  m_GameObject: {fileID: 1074094715472874}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8df6821e24e80649a7a2803da5e5410, type: 3}
@@ -71,12 +71,13 @@ MonoBehaviour:
       Data: 1
     - Name: ComponentID
       Entry: 3
-      Data: -1
+      Data: -3
     - Name: 
       Entry: 8
       Data: 
   BulletPatternData:
     componentTotalTime: 3
-    EnemyTimer: {fileID: 0}
+    EnemyTimer: {fileID: 1343920720911888, guid: 0c3728ae4fbf0fa45941951c5ca7b442,
+      type: 2}
     ComponentHealth: 100
     bulletTypesHealthDamage: 0a0000000f0000000a0000000f000000

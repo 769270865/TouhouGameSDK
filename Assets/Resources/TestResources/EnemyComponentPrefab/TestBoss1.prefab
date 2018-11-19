@@ -54,9 +54,7 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 114523843583705810, guid: 6847b088cb02ac146808453b17be1672, type: 2}
-    - {fileID: 114618149202046614, guid: 49cd7d8df3f448b4995c10dfb32a75c9, type: 2}
+    ReferencedUnityObjects: []
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -81,35 +79,16 @@ MonoBehaviour:
       Entry: 7
       Data: 0|Touhou.Core.Enemy.BossCatainer, Touhou.Core
     - Name: BossName
-      Entry: 1
-      Data: BossFoo
+      Entry: 6
+      Data: 
     - Name: SpellCount
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: BossSprite
       Entry: 6
       Data: 
     - Name: bossComponents
-      Entry: 7
-      Data: 1|System.Collections.Generic.List`1[[Touhou.Core.Enemy.IEnemyComponent,
-        Touhou.Core]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 10
-      Data: 0
-    - Name: 
-      Entry: 10
-      Data: 1
-    - Name: 
-      Entry: 10
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8

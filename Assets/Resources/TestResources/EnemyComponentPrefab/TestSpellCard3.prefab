@@ -77,7 +77,8 @@ MonoBehaviour:
       Data: 
   SpellCardData:
     spellCardName: SpellCardBaz
-    EnemyTimer: {fileID: 0}
+    EnemyTimer: {fileID: 1343920720911888, guid: 0c3728ae4fbf0fa45941951c5ca7b442,
+      type: 2}
     componentTotalTime: 2
     componentHealth: 100
     bulletTypesHealthDamages: 0a0000000f0000000a0000000f000000

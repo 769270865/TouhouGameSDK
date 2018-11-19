@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4079749499471220}
   - component: {fileID: 114459531691683922}
   m_Layer: 0
-  m_Name: TestBulltPattern2
+  m_Name: TestBulletPattern2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

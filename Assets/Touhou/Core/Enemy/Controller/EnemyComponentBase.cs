@@ -2,7 +2,7 @@
 using Sirenix.Serialization;
 using System;
 
-namespace Touhou.Core.Enemy
+namespace Touhou.Core.Enemy.Controller
 {
     public abstract class EnemyComponentBase : SerializedMonoBehaviour,IEnemyComponent
     {
